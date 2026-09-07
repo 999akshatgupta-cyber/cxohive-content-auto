@@ -216,7 +216,7 @@ https://www.linkedin.com/posts/prabalbhayana_gcc-enterpriseai-aistrategy-activit
 ## 5. The board stare. They still walked in with the build.
 
 **Final score:** 9.0 / 10  
-**Evidence confidence:** HIGH on the author; MEDIUM on comment quality (not fully sampled)  
+**Evidence confidence:** HIGH on the author; HIGH that the 250/16 comments are **not** ICP (sampled this hop)  
 **Source type:** LinkedIn / ICP author
 
 **Why the ICP cares**  
@@ -230,8 +230,10 @@ https://www.linkedin.com/posts/bhalchandra-dhatrak-1682727_leadership-governance
 “Busy leaders don't want to know how the product was built. They want to know the time and what happens if we're late… A brilliant expert walks into the boardroom… Instead, they get the stare.” Cites Board Intelligence: board members spend ~4 hours on papers; roughly half unread.
 
 https://www.linkedin.com/posts/bhalchandra-dhatrak-1682727_riskmanagement-compliance-leadership-activity-7498589121347489792-9vMX  
-27 Aug 2026. 250 reactions, 16 comments, 0 reposts. Impressions unavailable.  
-Zero-to-one global CoE for Risk/Compliance/Privacy with no prior domain seat; Chief of Staff to the CEO was the real preparation. “You don’t need to be the deepest technical expert in the room to build a team that is.” Comments not fully sampled this run — do not invent them. Author is ICP (risk/security, multi-geo, VP). Performance is far above his 45/0 presence post, which is the cleaner idea for us.
+27 Aug 2026. 250 reactions, 16 comments, 0 reposts. Impressions unavailable (metrics from the earlier brief; not re-scraped).  
+Zero-to-one global CoE for Risk/Compliance/Privacy with no prior domain seat; Chief of Staff to the CEO was the real preparation. “You don’t need to be the deepest technical expert in the room to build a team that is.” Author is ICP (risk/security, multi-geo, VP). Performance is far above his 45/0 presence post, which is the cleaner idea for us.
+
+**250/16 comments sampled** (`linkedin-post-comments`, max 12, 9 returned — `research/2026-09-07-linkedin-hops.md`): coaches (Yogesh S Gandhi; Murk Creusen, executive coach/founder), job-seekers (Ivana Čapková; Kamla Ramlall, London/NY), international GRC (Grace T., Faizan Gul, Yejide Adewolu), hashtag-engagement (Suniel Kumar L). One India-adjacent Director: **Vimal Vyas**, CX @ Quantiphi (AI-services, not MNC/IT/GCC) — “so true and I can totally relate.” **Zero India employed SM–VP at MNC/IT/GCC.** Treat 250/16 as a topic-network ring. Do not clone the format.
 
 **What appears to be working**  
 A recognisable room scene. Not “executive presence tips.” The stare.
@@ -246,7 +248,7 @@ Presence, not skills. Mudit can talk about rooms without becoming another “pyr
 Scene: the stare. Question: if you had 60 seconds with the person who can move your title, would you start with the work or with the decision?
 
 **Risks / saturation**  
-Dhatrak’s 250/16 may be a generic-leadership ring; comments not sampled. Do not clone “any questions?” corporate-training tone from his 21 Aug 108/4 post. Do not turn this into presentation coaching.
+Dhatrak’s 250/16 **is** a generic-leadership / global-GRC + coach ring; comments sampled. Do not clone it. Do not clone “any questions?” corporate-training tone from his 21 Aug 108/4 post. Do not turn this into presentation coaching.
 
 ---
 

@@ -1,6 +1,6 @@
 # SOURCE_MAP — CXO Hive content intelligence
 
-Living list. Last updated 2026-09-07 (second pass, same day).
+Living list. Last updated 2026-09-07 (third pass, same day — specified LinkedIn hops only).
 
 ## Named news outlets (open these first)
 
@@ -23,12 +23,12 @@ Last-24h Firecrawl `news` + `includeDomains` on the above is noisy (topic hubs).
 | Person | Why on the list | Notes |
 |---|---|---|
 | Goutam C S | Director, 4flow India; Ex-VP IT & Cyber | “approval chain tells you the truth.” Low reach. |
-| M I Sheriff | Director – Finance, HPE Bengaluru | Cost-arbitrage floor. Own posts did not scrape cleanly. |
-| Bhalchandra Dhatrak | VP Risk, Compliance & Data Privacy | 250/16 (27 Aug CoE) and 45/0 (2 Sep “board stare”). Presence seed. |
+| M I Sheriff | Director – Finance, HPE Bengaluru | Cost-arbitrage floor. `m-i-sheriff-2646037` profile-posts + `postedLimit` month = **0 items** (2026-09-07). Do not retry broader. |
+| Bhalchandra Dhatrak | VP Risk, Compliance & Data Privacy | 250/16 (27 Aug CoE) comments sampled: **global GRC + coaches ring**, not India SM–VP MNC/IT/GCC. 45/0 (2 Sep “board stare”) remains the cleaner presence seed. |
 | Swarup Acharjee | Senior Engineering Program Manager, HPE | Stack/approval operating detail. Last-month posts were low-engagement technical. |
 | Prem Kumar S. R. | Engineering Leader, Digital & AI | “hatchback budget / Mercedes service” on Dev R. Own posts this week are job-search — do not clone. |
-| chetan sharma | Engineering Leader | Leftover Directors after GCC sale to HCL. Hop next. |
-| Dinesha Khataukar | Strategic Leadership / Demand Planning | “waits 12 hours” + executioners elevated. Comment-only so far. |
+| chetan sharma | Engineering Leader | Leftover Directors after GCC sale to HCL. `chetan03sharma` profile-posts + month = **0 items** (2026-09-07). Still comment-only. |
+| Dinesha Khataukar | Strategic Leadership / Demand Planning / CSCP | “waits 12 hours” + executioners elevated. Search Short found real Bengaluru profile (`ACwAAAD9VeQBslDr_3VnzehasrhwCkrPUPKqcFM`); own posts month = **0**. Still comment-only. |
 | Yogesh Kantak | Head, GCC & Digital Transformation; NEXT100 CIO | Commented on Shammi Best Buy. Own posts this week are #yogism — not usable. |
 | Aditya Singh | Enterprise AI & Global Ops, BFS | % of stop/start decisions made in India. |
 | Smitha Sriharsha | Global Cybersecurity Leader, Bengaluru, 22+ yrs | Only clear ICP-adjacent woman on Mudit’s missed-promotion post. Hop again. |
@@ -105,11 +105,10 @@ Do not treat CHRO / founder / recruiter / coach as seed ICP.
 
 ## Next-run hunts
 
-1. chetan sharma’s own posts; Dinesha Khataukar’s own posts; Sheriff via publicIdentifier `m-i-sheriff-2646037`.
-2. Employed TCS / Infosys / Wipro / HCL / Accenture / Cognizant Directors on Best Buy or decision rights — still the missing parameter-honest 9.5.
-3. Company statement on Best Buy–TCS. Do not invent the other three TCS handovers.
-4. Women SM/Directors in their own voice (Smitha, others) — not advisors speaking for them.
-5. H2 appraisal / promotion-committee language as October approaches.
-6. Quiet PIP / “release” language inside Indian IT majors without recycling FY tables.
-7. Dhatrak 250/16 comments — sample before treating that post as a format to clone.
-8. Do not start from yesterday’s keyword list. Open this file, then named outlets, then the seed operators above.
+1. Employed TCS / Infosys / Wipro / HCL / Accenture / Cognizant Directors on Best Buy or decision rights — still the missing parameter-honest 9.5.
+2. Company statement on Best Buy–TCS. Do not invent the other three TCS handovers.
+3. Women SM/Directors in their own voice (Smitha, others) — not advisors speaking for them.
+4. H2 appraisal / promotion-committee language as October approaches.
+5. Quiet PIP / “release” language inside Indian IT majors without recycling FY tables.
+6. Do **not** re-run chetan / Sheriff / Dinesha month-window profile-posts, or Dhatrak 250/16 comments — done this pass; empties and ring documented in `research/2026-09-07-linkedin-hops.md`.
+7. Do not start from yesterday’s keyword list. Open this file, then named outlets, then the seed operators above.
