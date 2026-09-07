@@ -1,6 +1,6 @@
 # LinkedIn hops — 2026-09-07 (Apify, specified hops only)
 
-Budget-tight pass. Actors: `harvestapi/linkedin-profile-posts`, `harvestapi/linkedin-profile-search` (Short), `harvestapi/linkedin-post-comments`. `maxTotalChargeUsd` split across runs (≤ $2.50 total). No keyword soup. No `linkedin-post-search`. No retries on empty.
+Budget-tight pass. Actors: `harvestapi/linkedin-profile-posts`, `harvestapi/linkedin-profile-search` (Short), `harvestapi/linkedin-post-comments`. `maxTotalChargeUsd` split across runs (≤ $2.50 early; later `bashani` hop capped at $0.80). No keyword soup. No `linkedin-post-search`. No retries on empty.
 
 ---
 
@@ -70,11 +70,21 @@ Timestamps (UTC, actor): 27–30 Aug 2026. Not a 15-minute burst. Still not an I
 
 ---
 
+## 3) Profile posts — Surendra Bashani (later same day)
+
+**Why this hop, not keyword soup:** Head of Best Buy India is the named leftover-title object. Web index already had `https://www.linkedin.com/in/bashani`. Apify reserved for this one URL.
+
+**Input:** `harvestapi/linkedin-profile-posts`, `maxPosts` 4, `postedLimit` month, `includeReposts` false. Run `pfeV92ETulzJe992C`. Dataset `n6Pa0f0LLG78bffpf`. SUCCEEDED in ~4.9s.
+
+**MISS:** **0 items.** Not retried. Do not invent a statement. Do not switch to an ACw URL.
+
+---
+
 ## What this hop does *not* change
 
 - No new own-voice posts from chetan, Sheriff, or Dinesha. Prior comment-only evidence (leftover Directors; cost-arbitrage floor; 12-hour wait) still stands. Do not invent new metrics or posts.
 - Dhatrak 250/16 should not be cloned as a performing ICP format.
-- Best Buy–TCS company confirmation and employed TCS/Infosys/Wipro/HCL/Accenture/Cognizant Director comments remain missing. This hop did not hunt those.
+- Best Buy–TCS company confirmation and employed TCS/Infosys/Wipro/HCL/Accenture/Cognizant Director comments remain missing. Named-outlet re-hunt still found no other TCS handover names. Bashani month posts empty — leftover title is public, his voice is not.
 
 ## Runs (do not re-fire)
 
@@ -84,3 +94,4 @@ Timestamps (UTC, actor): 27–30 Aug 2026. Not a 15-minute burst. Still not an I
 | linkedin-profile-search | MGeOV7qFbf3Fr2dw2 | fbYC1YtrmqswGAgaH | 1 (Dinesha, real) |
 | linkedin-profile-posts | bLtmvn7wE6vL3HyrR | m7w0yqkY2GeP48vOr | 0 (Dinesha ACw) |
 | linkedin-post-comments | 743pkkMNB19gGMTZ1 | 2adCcHXBF4eYMwuDc | 9 comments |
+| linkedin-profile-posts | pfeV92ETulzJe992C | n6Pa0f0LLG78bffpf | 0 (bashani) |

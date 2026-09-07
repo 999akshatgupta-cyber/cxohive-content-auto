@@ -1,6 +1,21 @@
 # SOURCE_MAP — CXO Hive content intelligence
 
-Living list. Last updated 2026-09-07 (third pass, same day — specified LinkedIn hops only).
+Living list. Last updated 2026-09-07 (fourth pass, same day — Firecrawl/web-index first; one named-URL Apify hop).
+
+## How to get results when one path dies (Apify is constrained)
+
+Do **not** keyword-soup LinkedIn on Apify. That burns the budget and returns rings or zeros.
+
+Order that actually produced objects this week:
+
+1. Open this file. Then named-outlet Firecrawl `qdr:w` / `qdr:m`, then **scrape the article**, not the topic hub.
+2. Google-index discovery: `site:linkedin.com` + a named deal or person. Read the snippet. **Do not Firecrawl-scrape LinkedIn** (pulse pages fail; ToS).
+3. Scrape public non-LinkedIn pages for named leftover titles (Nasscom speaker pages, Reuters, Sched).
+4. Apify **only** on a specific profile or post URL the index already found. One Actor, small `maxPosts`/`maxItems`, `maxTotalChargeUsd` cap. If 0 items: log the miss and **stop**.
+5. Phrase-hop comments on a known operator post beats any new keyword search.
+6. If Firecrawl 429s, finish from already-scraped primaries. If `firecrawl_agent` is used, it needs a real JSON schema — an empty/`additionalProperties: false` schema returns `{}`.
+
+Burned / failed methods: company+title+empty/PIP on Apify; ACw URL profile-posts; last-24h `news`+`includeDomains`; Firecrawl scrape of LinkedIn pulse; retrying empties; treating Dhatrak 250/16 as ICP proof.
 
 ## Named news outlets (open these first)
 
@@ -37,6 +52,8 @@ Last-24h Firecrawl `news` + `includeDomains` on the above is noisy (topic hubs).
 | Raktim Singh | Infosys, Senior Industry Principal, CTO office | Adjacent operator-creator. Low engagement, high specificity. |
 | Indira Muthumani | VP, Bank of America | Agreed on Anuraj utilisation post. Thin; keep as hop. |
 | Venkatakrishnan Radhakrishnan | 30+ yrs finance/governance, ex-IBM | Authority vs more work. |
+| Surendra Bashani | VP, Head of Best Buy India | Nasscom GCC Summit 2026 speaker. `bashani` profile-posts + month = **0** (2026-09-07). Named leftover-title object only. Do not retry. |
+| Nithya Subramanian | Sr Director, Data & AI COE, Best Buy | Reuters 8 Aug 2025: Bengaluru ~350 → ~500. Not hopped (no clean publicIdentifier + Apify reserved). |
 
 Do not treat CHRO / founder / recruiter / coach as seed ICP.
 
@@ -52,6 +69,8 @@ Do not treat CHRO / founder / recruiter / coach as seed ICP.
 | Dev R | Global delivery / ODC-GCC | 131/23 this week on GCC exits. Mixed comments; some real operators. |
 | Shammi Prabhakar Singh | GCC builder | 41/10 on Best Buy; “fourth since April” lives in comments/pulse. |
 | Sunil Khatwani | Celix / GCC advisory | Comments across multiple posts — adjacent, not ICP. |
+| Manan Sharma | HR analytics / GCC-design vendor | Decision-rights language on Best Buy. Not ICP. Do not hop. |
+| Rajesh Srivastava | GCC Leader / Global Product & Tech | 7 Sep charter/decision-rights line. Creator, not IT-major Director. |
 
 ## Phrases to hunt (found — do not start the next run from a keyword soup)
 
@@ -68,6 +87,7 @@ Do not treat CHRO / founder / recruiter / coach as seed ICP.
 - “the India team” / perception ≠ capability
 - Microsoft **PIP** as a paper-trail object (not “layoff”)
 - “utilization” / “billable headcount” as the wrong promotion file
+- Infosys **JL6** / January 2027 hike calendar (supporting file, not a recap post)
 
 ## Burned / do-not-clone this week
 
@@ -80,7 +100,9 @@ Do not treat CHRO / founder / recruiter / coach as seed ICP.
 - Nasscom–Zinnov **number dump** without the sign-off tension
 - Prabal 122/27 as a reskill/L&D post
 - WACKER–HCLTech Pune GCC (vendor setup, not a reversal)
+- TCS GVIC / “AI-native GCC” unit (Jun 2026) — vendor setup, not a handover
 - ET HDFC “who gets the key” CEO succession (wrong altitude)
+- Manan Sharma format (vendor GCC-design posts)
 
 ## Engagement rings / noise
 
@@ -94,9 +116,12 @@ Do not treat CHRO / founder / recruiter / coach as seed ICP.
 ## News objects still live
 
 - TOI 2 Sep: TCS reported to take Best Buy Bengaluru GCC (~600; ~₹2,000 cr; **companies had not confirmed**). Primary: `133694028.cms`.
-- Comment/pulse claim: fourth TCS GCC handover since April. **Names of the other three not independently listed this run.**
+- Comment/pulse claim: fourth TCS GCC handover since April. **Names of the other three still not in named-outlet news (re-checked this pass).**
+- Reuters 8 Aug 2025: Nithya Subramanian — Best Buy Bengaluru ~350, weighing ~500; largest tech hub.
+- Nasscom GCC Summit 2026: Surendra Bashani, VP / Head of Best Buy India, Bengaluru hub.
 - ICICI Direct 17 Jul: HCLTech–Guardian Life $10.5m GCC buy, ~2,000 people.
 - ET 2 Sep: Oracle ~3,000 India cuts; Microsoft India PIP ~400–500 (analyst; unconfirmed).
+- ET 24 Aug: Infosys Q1 bonus avg 70% (−10pp YoY); JL4/5 hikes soon; **JL6+ January 2027**; company silent. No ICP LinkedIn thread found.
 - FE 3–4 Sep: AI reset may reshuffle IT pecking order; revenue not tied to headcount.
 - YourStory: GCCs execute AI, fewer own the agenda (Nasscom AI / Zinnov / Tiger; 75+ leaders).
 - Prabal cites Zinnov–ProHance Nov 2025: 92% piloting AI; >70% no ROI framework.
@@ -107,8 +132,8 @@ Do not treat CHRO / founder / recruiter / coach as seed ICP.
 
 1. Employed TCS / Infosys / Wipro / HCL / Accenture / Cognizant Directors on Best Buy or decision rights — still the missing parameter-honest 9.5.
 2. Company statement on Best Buy–TCS. Do not invent the other three TCS handovers.
-3. Women SM/Directors in their own voice (Smitha, others) — not advisors speaking for them.
-4. H2 appraisal / promotion-committee language as October approaches.
+3. Women SM/Directors in their own voice (Smitha, others) — not advisors speaking for them. Talent500/NLB primary still not recovered.
+4. H2 appraisal / promotion-committee language as October approaches. Infosys JL6 Jan 2027 is the live calendar object.
 5. Quiet PIP / “release” language inside Indian IT majors without recycling FY tables.
-6. Do **not** re-run chetan / Sheriff / Dinesha month-window profile-posts, or Dhatrak 250/16 comments — done this pass; empties and ring documented in `research/2026-09-07-linkedin-hops.md`.
-7. Do not start from yesterday’s keyword list. Open this file, then named outlets, then the seed operators above.
+6. Do **not** re-run chetan / Sheriff / Dinesha / **bashani** month-window profile-posts, or Dhatrak 250/16 comments — empties and ring documented in `research/2026-09-07-linkedin-hops.md`.
+7. Do not start from yesterday’s keyword list. Open this file, then named outlets, then the seed operators above. Apify last, named URL only.

@@ -6,7 +6,7 @@ This replaces the first 7 Sep brief. That brief failed the bar: one honest 9.0 a
 
 Missing locally: `ICP.md`, `CXO_HIVE.md`, `ICP_PAIN_POINTS.md`, `CONTENT_INTELLIGENCE.md`, `RESEARCH_RULES.md`. Used the RTF originals, `research/SOURCE_MAP.md`, and prior memories.
 
-Firecrawl MCP for news. LinkedIn via `harvestapi/linkedin-post-search`, `linkedin-profile-posts`, `linkedin-profile-search`, `linkedin-post-comments`. Tight jobs only. Firecrawl CLI not installed.
+Firecrawl MCP for news and Google-index discovery. LinkedIn structured data only via Apify, and only on a **named URL** after the web index already found the person or post. No LinkedIn keyword soup. Firecrawl CLI not installed. This pass: named-outlet search, `site:linkedin.com` index, Nasscom/Reuters scrape, one Apify hop on `bashani` (0 posts).
 
 ---
 
@@ -32,7 +32,18 @@ Moneycontrol / India Today / Outlook Business all trace back to the same TOI sou
 HCLTech–Guardian (older, still cited this week): $10.5m buy of Guardian India Operations, ~2,000 people, plus a seven-year deal.  
 https://www.icicidirect.com/research/equity/trending-news/hcltech-and-guardian-life-insurance-sign-a-7-year-deal-to-drive-ai-powered-technology-modernization  
 
-Comment on Shammi’s post (Oomkar Mahindrakar): “The fourth GCC handover to TCS since April says this isn't a one off.” Do **not** invent the other three names. Use the pattern language, not a fake list.
+Comment on Shammi’s post (Oomkar Mahindrakar): “The fourth GCC handover to TCS since April says this isn't a one off.” Named-outlet hunt (TOI / ET / Moneycontrol / Livemint / BS / Hindu BL / Reuters, Apr–Sep 2026) still does **not** list the other three. Shammi’s pulse is the only source of the count. Use the pattern language, not a fake list.
+
+**Named leftover titles (public, not invented comments)**  
+**Surendra Bashani** — VP, Head of Best Buy India. Nasscom GCC Summit 2026 speaker page (6 May, Mumbai): “Head of Best Buy India… oversees the strategic evolution of the Bengaluru hub.”  
+https://thenasscomgccsummit2026.sched.com/speaker/surendra_bashani.29maekia  
+Apify `linkedin-profile-posts` on `https://www.linkedin.com/in/bashani`, month window, max 4, no reposts: **0 items** (run `pfeV92ETulzJe992C`). Do not invent a statement from him. Do not retry.
+
+**Nithya Subramanian** — Senior Director, Data & AI COE, Best Buy. Reuters, 8 Aug 2025: Bengaluru GCC ~350 people; she said headcount could grow to ~500; “largest tech hub”; hiring AI engineers, software engineers, product managers.  
+https://www.reuters.com/business/retail-consumer/us-retailer-best-buy-weighs-boosting-india-headcount-subramanian-says-aug-8-2025-08-08/  
+TOI 2 Sep 2026 now reports ~600 and a TCS-run centre. That is the timeline. Do not invent her 2026 comments.
+
+Company confirmation: still none. TCS’s June 2026 “Global Value & Innovation Centres” unit is a **vendor setup** product, the opposite of a captive handover — do not cite it as a fourth exit.
 
 **What appears to be working**  
 Name a reversal, then ask what the leftover Directors still own. First-person operating detail beats “GCC boom” slides.
@@ -91,6 +102,11 @@ https://economictimes.indiatimes.com/tech/technology/oracle-trims-3000-india-rol
 
 TOI same week recap: “India’s tech jobs face another jolt: Oracle to cut 3,000, Microsoft puts 500 on PIPs.”  
 https://timesofindia.indiatimes.com/business/india-business/indias-tech-workforce-gets-another-jolt-oracle-is-cutting-around-3000-jobs-while-microsoft-puts-about-500-employees-on-pips-as-companies-shift-budgets-towards-newer-skills/articleshow/133678507.cms  
+
+**Same building, different file — Infosys calendar (supporting object, not a new post)**  
+ET, 24 Aug 2026, K R Balasubramanyam: Infosys Q1 average performance bonus 70%, unchanged QoQ, **10 percentage points lower YoY**; JL4/5 outstanding payouts 80%/78%; JL4 and JL5 hikes indicated in the next one to two months; **JL6 and above in January 2027**. Infosys did not respond to ET.  
+https://economictimes.indiatimes.com/tech/information-tech/infosys-q1-bonus-payout-averages-70-down-10-percentage-points-from-year-ago/articleshow/133469543.cms  
+Google-index `site:linkedin.com` for JL6 / January 2027 returned only a 2025 hike post. No ICP thread recovered. Do not invent comments. Use this as the *calendar file* they still have — not as a bonus-recap post.  
 
 **LinkedIn on the news itself (why parameters fail)**  
 Sahil Kapoor layoff roundup (Oracle 3k + Uber 10%): 3 Sep, 1,065 reactions, 37 comments. Sampled comments: recruiters, career coaches, SDET creators, juniors. Viral ≠ ICP. Do not use his metrics as proof.
@@ -446,6 +462,10 @@ Zero comments on the ETGCC post. YourStory is about *centre* brand, not *person*
 
 - Last-24h Nifty-IT tape.  
 - WACKER–HCLTech Pune GCC (27 Aug): vendor setup, opposite of a reversal.  
+- TCS Global Value & Innovation Centres unit (Jun 2026): vendor setup product, not a captive handover. Do not use it to “name” the other three exits.  
+- Manan Sharma Best Buy / decision-rights posts (`activity-7501129222334255105-jZBW`): HR analytics / GCC-design vendor. Indexed line is on-theme. He is not ICP. Do not hop.  
+- Rajesh Srivastava 7 Sep decision-rights charter line: GCC-leader creator, not a TCS/Infosys Director thread. Not hopped (Apify reserved).  
+- Infosys JL6 / January 2027 as a *standalone news recap*: no ICP LinkedIn thread recovered. Kept only as the calendar-file object under #2.  
 - ET 6 Sep “Who gets the key when the CEO refuses to drive?”: HDFC Bank board succession. Wrong altitude (current C-suite / boards), not SM–VP.  
 - Delhi HC maternity judgment: legal, not ICP conversation.  
 - Prabal 122/27 PwC–FICCI reskill-budget post: high metrics, skills-training trap. Mined for Dinesha’s comment only.  
@@ -454,4 +474,4 @@ Zero comments on the ETGCC post. YourStory is about *centre* brand, not *person*
 
 ### What would still raise a parameter-honest 9.5 without novelty
 
-Employed TCS / Infosys / Wipro / HCL / Accenture / Cognizant Directors commenting *on the Best Buy or decision-rights posts* — still thin. Company confirmation on Best Buy–TCS. Women SM/Directors commenting in their own voice on the closed-door meeting, not advisors commenting for them.
+Employed TCS / Infosys / Wipro / HCL / Accenture / Cognizant Directors commenting *on the Best Buy or decision-rights posts* — still thin. Company confirmation on Best Buy–TCS. A recovered primary for Talent500/NLB women numbers. Own-voice posts from Surendra Bashani or Nithya Subramanian on the reported novation (month-window scrape on Bashani was empty). Women SM/Directors commenting in their own voice on the closed-door meeting, not advisors commenting for them.
