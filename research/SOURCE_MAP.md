@@ -1,6 +1,8 @@
 # SOURCE_MAP — CXO Hive content intelligence
 
-Living list. Last updated 2026-09-11 (Friday cron). Firecrawl/web-index first; one named-URL Apify hop.
+Living list. Last updated 2026-09-11 (scoring contract). Firecrawl/web-index first; one named-URL Apify hop.
+
+**Scoring:** `RESEARCH_RULES.md` wins. Ship/ingest floor is **8.4**. Novelty cannot lift. 9.0 requires qualified ICP voice, not a guarantee paragraph. Stop at ≥3 items at 8.4+ or after named outlets + index + one named-URL Apify hop. Do not hunt until 9.0.
 
 ## How to get results when one path dies (Apify is constrained)
 
@@ -15,7 +17,7 @@ Order that actually produced objects this week:
 5. Phrase-hop comments on a known operator post beats any new keyword search.
 6. If Firecrawl 429s, finish from already-scraped primaries.
 
-Burned / failed methods: company+title+empty/PIP on Apify; ACw URL profile-posts; last-24h `news`+`includeDomains`; Firecrawl scrape of LinkedIn pulse; retrying empties; treating Dhatrak 250/16, Rajesh Srivastava 248/16, or **Rajesh Ramaswami 18/22 and 20/12** as ICP proof. `RESEARCH_RULES.rtf` has **no** post-9.0 method ladder — do not invent one.
+Burned / failed methods: company+title+empty/PIP on Apify; ACw URL profile-posts; last-24h `news`+`includeDomains`; Firecrawl scrape of LinkedIn pulse; retrying empties; treating Dhatrak 250/16, Rajesh Srivastava 248/16, or **Rajesh Ramaswami 18/22 and 20/12** as ICP proof. There is **no** post-9.0 method ladder — do not invent one. Novelty-as-lift (9 Sep and 11 Sep) is also burned.
 
 ## Named news outlets (open these first)
 
@@ -163,7 +165,7 @@ Do **not** re-run chetan / Sheriff / Dinesha / bashani month profile-posts, Dhat
 
 ## Next-run hunts
 
-1. Employed TCS / Infosys / Wipro / HCL / Accenture / Cognizant / Best Buy / **BT** Directors in their own voice — still the missing parameter-honest 9.5. **Kapil Khaneja profile**, not the ETGCC page.
+1. Employed TCS / Infosys / Wipro / HCL / Accenture / Cognizant / Best Buy / **BT** Directors in their own voice — that is a 9.0, not a ship requirement. An 8.4 news object still ships. **Kapil Khaneja profile**, not the ETGCC page.
 2. Company statement on Best Buy–TCS. Do not invent a denial.
 3. Manish Tambe own posts; Abhinav Dev still unused.
 4. Women SM/Directors in their own voice. Smitha still not recovered. Mohua is a source, not a substitute.

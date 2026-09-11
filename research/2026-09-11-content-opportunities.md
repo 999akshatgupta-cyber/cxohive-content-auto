@@ -1,10 +1,12 @@
 # CXO Hive content opportunities — 2026-09-11
 
-Missing locally: `ICP.md`, `CXO_HIVE.md`, `ICP_PAIN_POINTS.md`, `CONTENT_INTELLIGENCE.md`, `RESEARCH_RULES.md`, `research/SOURCE_MAP.md`. Used the RTF originals plus SOURCE_MAP recovered from the 9 Sep branch (`cursor/content-intelligence-research-02c3`). Prior memories and the 9 Sep brief read.
+Missing locally at run time: `ICP.md`, `CXO_HIVE.md`, `ICP_PAIN_POINTS.md`, `CONTENT_INTELLIGENCE.md`, `RESEARCH_RULES.md`. Used the RTF originals plus SOURCE_MAP. Scoring contract now lives in `RESEARCH_RULES.md` (added after this run).
 
-`RESEARCH_RULES.rtf` does **not** describe a method ladder after a blocked 9.0. Continued hopping with Firecrawl. One Firecrawl 429 mid-run; finished from primaries already in hand. Firecrawl CLI not used. LinkedIn structured data: one tight `harvestapi/linkedin-profile-posts` hop on five named URLs already found (run `ZE3pDN4wxmfESjg8X`, 24 items). No LinkedIn keyword soup. Do not Firecrawl-scrape LinkedIn.
+`Research Rules.rtf` does **not** describe a method ladder after a blocked 9.0. Continued hopping with Firecrawl. One Firecrawl 429 mid-run; finished from primaries already in hand. Firecrawl CLI not used. LinkedIn structured data: one tight `harvestapi/linkedin-profile-posts` hop on five named URLs already found (run `ZE3pDN4wxmfESjg8X`, 24 items). No LinkedIn keyword soup. Do not Firecrawl-scrape LinkedIn.
 
-**Published list:** three items, all Novelty 9.0+. **No parameter-honest 9.0 this pass.** Qualified ICP comments on this week’s news objects are still thin. Do not read the 9.5s as “the comments were strong.”
+**Scoring correction (do not re-ingest):** this brief Novelty-inflated because the automation ingest floor was 9.0. Honest scores under `RESEARCH_RULES.md`: item 1 **8.4**, item 2 **8.4**, item 3 **8.4**. Still worth posting. Not 9.5s. GrowthX drafts already created from the inflated numbers — leave them unless a human asks to rewrite.
+
+**Published list:** three items. Qualified ICP comments on this week’s news objects were thin. Do not read the original 9.5 stamps as “the comments were strong.”
 
 Dropped (not inflated): Rajesh Ramaswami 18/22 and 20/12 (comment ring); Dhanya Skariachan 5/0 (journalist, no ICP thread); ETGCC / The Standard India company posts (self + vendor comments); Quess GCC non-tech hiring dump; Samsung India sales/marketing cuts; US hack-for-hire Entity List (not a career object); H-1B 60-day as a visa explainer; Uber flatten (burned); Best Buy–TCS still unconfirmed.
 
@@ -12,16 +14,16 @@ Dropped (not inflated): Rajesh Ramaswami 18/22 and 20/12 (comment ring); Dhanya 
 
 ## 1. They counted you as 20,000 of freed capacity. Then they called it redeployment.
 
-**Final score:** 9.5 / 10  
+**Final score:** 8.4 / 10 (was Novelty 9.5 — invalid lift)  
 **Evidence confidence:** HIGH on the news; LOW on qualified ICP LinkedIn comments  
-**Source type:** News + Novelty  
-**Scoring note:** Observed LinkedIn reaction to *this* interview is a Reuters editor (5 reactions, 0 comments, 1 repost) plus vendor/media reprints. Parameters would cap at 8.4. **Novelty lift to 9.5.** Guarantee below.
+**Source type:** News  
+**Scoring note:** Observed LinkedIn reaction to *this* interview is a Reuters editor (5 reactions, 0 comments, 1 repost) plus vendor/media reprints. Honest ceiling is 8.4. Checklist 1–5 yes; qualified ICP voice: none. Novelty must not lift.
 
 **Why the ICP cares**  
 Wipro’s CTO put a number on what “AI productivity” looks like inside a 243,000-person IT major: capacity equivalent to 20,000 employees, “redeployed.” Same week the industry is hiring “forward-deployed engineers” who sit with the client. The India SM–VP who still runs the machine is in the first pile. The person HQ can explain in one sentence is in the second.
 
-**Guarantee (why this is a 9.5 for our use case)**  
-An employed Director at Wipro, TCS, Infosys or HCL will recognise the filing without a layoff headline. It does not clone leftover-Directors, the PIP-file post, or last Monday’s PERM freeze. It names two seats written in the same operating model: the 20,000 who became capacity, and the 8,900 / 6,000 FDEs TCS and Infosys are building to sit in the client room. The CXO Hive object is the promotion brief: utilisation and training certificates, or a problem leadership actually cares about. That is positioning + evidence.
+**Why this clears 8.4**  
+An employed Director at Wipro, TCS, Infosys or HCL will recognise the filing without a layoff headline. It does not clone leftover-Directors, the PIP-file post, or last Monday’s PERM freeze. It names two seats written in the same operating model: the 20,000 who became capacity, and the 8,900 / 6,000 FDEs TCS and Infosys are building to sit in the client room. The CXO Hive object is the promotion brief: utilisation and training certificates, or a problem leadership actually cares about. That is positioning + evidence. Not a 9.5 — no qualified ICP voice.
 
 **Supporting evidence**  
 ET reprint of Reuters, 10 Sep 2026, 10:55 PM IST. Wipro CTO Sandhya Arun: AI initiatives increased productivity equivalent to the output of 20,000 employees, “who have since been redeployed within the Indian IT firm.” Wipro ~243,000 employees in June. “Human-AI operating model”; 100,000+ with advanced AI training. Quote: “It could be the same engineer managing a bunch of agents, deployed on other projects or being trained for some other role. It doesn't necessarily mean person-to-person replacement by an agent.” Also: “The shift has to be from productivity to outcomes.” Wipro expanding forward-deployed engineers “in line with peers”; declined a number. TCS plans up to 8,900 FDEs; Infosys about 6,000. TCS had said in June it is moving toward an equal number of employees and AI agents. Wipro is the only top-four Indian IT firm that does not disclose AI revenue. Analyst Manoj Chandra Jha (Nord-IQ): still in the cost-absorbing phase.  
@@ -57,16 +59,16 @@ ICP engagement evidence: **none in this hop.** Index also surfaced MartechAi, St
 
 ## 2. They see India talent. They do not see enterprise talent.
 
-**Final score:** 9.5 / 10  
+**Final score:** 8.4 / 10 (was Novelty 9.5 — invalid lift)  
 **Evidence confidence:** HIGH on the named quotes; LOW on qualified ICP comments on the posts  
-**Source type:** News + LinkedIn / Novelty  
-**Scoring note:** Panelists include a BT GBS India Director (ICP title) and a country head (outside ICP). Sampled comments: the country head on her own company post; a product owner; a GCC-advisory partner. Parameters would cap ~8.2. **Novelty lift to 9.5.**
+**Source type:** News  
+**Scoring note:** Panelists include a BT GBS India Director (ICP title as *source*, not as engagement) and a country head (outside ICP). Sampled comments: the country head on her own company post; a product owner; a GCC-advisory partner. Honest score 8.4: named primary + specific tension + original angle. Speaker-in-a-journalist-piece is not “own voice,” so not 8.7.
 
 **Why the ICP cares**  
 A 10 Sep ETGCC piece from SURGE 2026 asked whether India’s GCCs can produce the next global CEO. The usable object is not the event. It is one distinction: visibility into the enterprise is not the same as being filed as enterprise talent. Functional KPIs, no customer, no top line, no successor map.
 
-**Guarantee (why this is a 9.5 for our use case)**  
-This is the product, said in public this week by people who run India centres: accountability vs ownership; “touch the top line”; market and customer exposure “generally missing in GCCs”; succession treated as a hunt, not a pipeline. It does not clone boarding-pass, leftover-Directors, or “month 18.” An employed SM–VP in a captive or an IT major will recognise which talent file they are in.
+**Why this clears 8.4**  
+This is the product, said in public this week by people who run India centres: accountability vs ownership; “touch the top line”; market and customer exposure “generally missing in GCCs”; succession treated as a hunt, not a pipeline. It does not clone boarding-pass, leftover-Directors, or “month 18.” An employed SM–VP in a captive or an IT major will recognise which talent file they are in. Not a 9.5 — comments were self + vendor.
 
 **Supporting evidence**  
 ETGCC, published 10 Sep 2026, 17:46 IST. Panel at ETGCCWorld SURGE 2026.  
@@ -116,15 +118,15 @@ Comment: **Roopesh Kumar**, Partner (EVP) at Gloplax; “GCC Expert Practitioner
 
 ## 3. The US room is proposing to delete the 60 days between layoff and leaving.
 
-**Final score:** 9.0 / 10  
+**Final score:** 8.4 / 10 (was Novelty 9.0 — invalid lift)  
 **Evidence confidence:** HIGH on the proposal; LOW on ICP LinkedIn reaction  
-**Source type:** News + Novelty  
-**Scoring note:** No qualified ICP thread found on this object this pass (`site:linkedin.com` hop returned noise). Parameters would cap 8.4. **Novelty to 9.0, not 9.5** — visa-sympathy and job-seeker gravity are real, and Monday’s brief already used the Cognizant PERM freeze.
+**Source type:** News  
+**Scoring note:** No qualified ICP thread found on this object this pass (`site:linkedin.com` hop returned noise). Honest score 8.4 because the object is a named clock, distinct from Monday’s PERM freeze. Weakest of the three: visa-sympathy gravity. Still shippable if the post stays on the clock, not the FAQ. Novelty must not lift.
 
 **Why the ICP cares**  
 For a slice of Indian IT SM–VP, the US seat was the path to being explainable globally. Last week Cognizant’s PERM file was frozen. This week DHS proposed ending the 60-day post-layoff grace period for H-1B and other temporary work visas. The next global-room path has to be won in an India room, with less of a US layover if the US job ends.
 
-**Guarantee (why this clears 9.0)**  
+**Why this clears 8.4**  
 Do not write a visa explainer. Write the career filing: the company still has a US hiring plan; the India operator’s cushion after a US cut is being written down to zero (proposal, not final). Employed Directors at TCS / Infosys / HCL / Cognizant will feel the sponsorship gap without needing a comment thread. Distinct from Monday’s PERM object (green-card *file* vs post-layoff *clock*).
 
 **Supporting evidence**  
@@ -160,7 +162,7 @@ Proposal, not rule. Immigration attorneys and job-seekers will swamp the comment
 4. Phrase hop: “20,000 of capacity,” “productivity to outcomes,” “India talent as enterprise talent,” “touch the top line,” “accountability vs ownership,” “60-day grace.”  
 5. Adaptive: Best Buy company confirmation still missing; JL6 still no ICP thread; Rajesh own posts are a comment ring, not ICP proof.
 
-Still missing for a *parameter-honest* 9.5: employed TCS / Infosys / Wipro / HCL / Accenture / Cognizant / Best Buy / BT Directors in their own voice on these objects, in comments that are not a ring.
+Still missing for a *parameter-honest* 9.0: employed TCS / Infosys / Wipro / HCL / Accenture / Cognizant / Best Buy / BT Directors in their own voice on these objects, in comments that are not a ring. That absence does not block an 8.4 ship. Do not keep hopping to force a 9.0.
 
 ## Dropped from the published list
 
